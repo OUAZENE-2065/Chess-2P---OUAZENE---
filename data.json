@@ -1,0 +1,88 @@
+{
+    "width" : 1200,
+    "height" : 800,
+    "min_width" : 1200,
+    "min_height" : 800,
+    "background" : "background.png",
+    "text_color" : "black",
+    "squares" : {
+        "black" : "black.png",
+        "white" : "white.png",
+        "Yellow" : "textures/Yellow.png",
+        "Blue" : "textures/Blue.png",
+        "Red" : "textures/Red.png",
+        "Purple" : "textures/Purple.png",
+        "Check" : "textures/Check.png"
+    },
+    "pieces" : {
+        "White" : {
+            "Pawn" : "textures/wpawn2.png",
+            "Rock" : "textures/wrock2.png",
+            "Knight" : "textures/wknight2.png",
+            "Bishop" : "textures/wbishop2.png",
+            "Queen" : "textures/wqueen2.png",
+            "King" : "textures/wking2.png"
+        },
+        "Black" : {
+            "Pawn" : "textures/bpawn2.png",
+            "Rock" : "textures/brock2.png",
+            "Knight" : "textures/bknight2.png",
+            "Bishop" : "textures/bbishop2.png",
+            "Queen" : "textures/bqueen2.png",
+            "King" : "textures/bking2.png"
+        }
+    },
+    "Wood" : {
+        "black" : "black.png",
+        "white" : "white.png"
+    },
+    "Ice" : {
+        "black" : "Iblack.png",
+        "white" : "Iwhite.png"
+    },
+    "Space" : {
+        "black" : "Sblack.png",
+        "white" : "Swhite.png"
+    },
+    "normal" : {
+        "White" : {
+            "Pawn" : "textures/wpawn2.png",
+            "Rock" : "textures/wrock2.png",
+            "Knight" : "textures/wknight2.png",
+            "Bishop" : "textures/wbishop2.png",
+            "Queen" : "textures/wqueen2.png",
+            "King" : "textures/wking2.png"
+        },
+        "Black" : {
+            "Pawn" : "textures/bpawn2.png",
+            "Rock" : "textures/brock2.png",
+            "Knight" : "textures/bknight2.png",
+            "Bishop" : "textures/bbishop2.png",
+            "Queen" : "textures/bqueen2.png",
+            "King" : "textures/bking2.png"
+        }
+    },
+    "floo" : {
+        "White" : {
+            "Pawn" : "textures/wpawn1.png",
+            "Rock" : "textures/wrock1.png",
+            "Knight" : "textures/wknight1.png",
+            "Bishop" : "textures/wbishop1.png",
+            "Queen" : "textures/wqueen1.png",
+            "King" : "textures/wking1.png"
+        },
+        "Black" : {
+            "Pawn" : "textures/bpawn1.png",
+            "Rock" : "textures/brock1.png",
+            "Knight" : "textures/bknight1.png",
+            "Bishop" : "textures/bbishop1.png",
+            "Queen" : "textures/bqueen1.png",
+            "King" : "textures/bking1.png"
+        }
+    },
+    "sound" : {
+        "check" : "quotwarningquot-175692.mp3",
+        "checkmate" : "error-in-the-file-system-149908.mp3",
+        "move" : "place-glass-object-81857.mp3"
+    }
+}

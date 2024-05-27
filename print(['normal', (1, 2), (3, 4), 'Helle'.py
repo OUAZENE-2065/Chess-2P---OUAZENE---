@@ -1,0 +1,1 @@
+print(['normal', (1, 2), (3, 4), 'Hello'] == ['normal', (1, 2), (3, 4), 'Hello'] == ['normal', (1, 2), (3, 4), 'Hello'])

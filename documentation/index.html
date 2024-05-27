@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess App Documentation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, section {
+            margin-bottom: 20px;
+        }
+        h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            color: #ddd;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        ul, ol {
+            margin: 10px 0 10px 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chess Between 2 Players</h1>
+        <p>Created by: <strong>OUAZENE Abdemlohsen</strong></p>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This documentation provides an overview of the "Chess Between 2 Players" application, including its features, installation instructions, and usage guidelines.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Play chess between two players locally.</li>
+            <li>Interactive user interface.</li>
+            <li>Highlights valid moves for each piece.</li>
+            <li>Enforces standard chess rules (e.g., check, checkmate, castling).</li>
+            <li>Allows undoing moves.</li>
+            <li>Provides move history and a game timer.</li>
+        </ul>
+    </section>
+
+    <section id="usage">
+        <h2>Usage</h2>
+        <h3>Starting a Game</h3>
+        <ol>
+            <li>Open the application.</li>
+            <li>Click the "New Game" button to initialize the chess board.</li>
+        </ol>
+        <h3>Making a Move</h3>
+        <ul>
+            <li>Select a piece by clicking on it.</li>
+            <li>Valid moves will be highlighted on the board.</li>
+            <li>Drag and drop the piece to the desired valid position.</li>
+        </ul>
+        <h3>Undoing a Move</h3>
+        <ul>
+            <li>Click the "Undo" button to revert the last move.</li>
+        </ul>
+    </section>
+
+    <section id="how-to-play">
+        <h2>How to Play</h2>
+        <h3>Objective</h3>
+        <p>The main objective in chess is to checkmate your opponent's king. This means the king is in a position to be captured ('in check') and there is no legal move that the player can make to escape the threat of capture on the next move.</p>
+
+        <h3>Game Setup</h3>
+        <p>At the start of the game, the chessboard is laid out with each player's pieces set up in the following positions:</p>
+        <ul>
+            <li>Back row (from left to right): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook</li>
+            <li>Front row: Pawns</li>
+        </ul>
+
+        <h3>Piece Movement</h3>
+        <ul>
+            <li><strong>King:</strong> Moves one square in any direction.</li>
+            <li><strong>Queen:</strong> Moves any number of squares in any direction.</li>
+            <li><strong>Rook:</strong> Moves any number of squares horizontally or vertically.</li>
+            <li><strong>Bishop:</strong> Moves any number of squares diagonally.</li>
+            <li><strong>Knight:</strong> Moves in an L-shape: two squares in one direction and then one square perpendicular.</li>
+            <li><strong>Pawn:</strong> Moves one square forward (two squares on its first move); captures diagonally.</li>
+        </ul>
+
+        <h3>Special Moves</h3>
+        <ul>
+            <li><strong>Castling:</strong> A special move involving the king and a rook. The king moves two squares towards the rook, and the rook moves to the square next to the king.</li>
+            <li><strong>En Passant:</strong> A special pawn capture that can occur immediately after a pawn moves two squares forward from its starting position.</li>
+            <li><strong>Promotion:</strong> When a pawn reaches the opponent's back rank, it is promoted to another piece (typically a queen).</li>
+        </ul>
+
+        <h3>End of the Game</h3>
+        <p>The game can end in several ways:</p>
+        <ul>
+            <li><strong>Checkmate:</strong> One player's king is in check and there is no legal move to escape.</li>
+            <li><strong>Stalemate:</strong> The player to move has no legal moves and their king is not in check.</li>
+            <li><strong>Draw:</strong> The game can also end in a draw by mutual agreement, insufficient material to checkmate, or the fifty-move rule (no pawn moves or captures in the last fifty moves).</li>
+        </ul>
+    </section>
+
+    <section id="rules">
+        <h2>Chess Rules</h2>
+        <p>The game follows the standard rules of chess. Here are some key points:</p>
+        <ul>
+            <li>Each player takes turns to move one piece.</li>
+            <li>The objective is to checkmate the opponent's king.</li>
+            <li>Special moves such as castling, en passant, and pawn promotion are supported.</li>
+        </ul>
+        <p>For detailed rules, go to Google.</p>
+    </section>
+
+    <section id="support">
+        <h2>Support</h2>
+        <p>If you encounter any issues or have questions, please contact:</p>
+        <ul>
+            <li>Email: <a href="mailto:aamasouazene@gmail.com">aamasouazene@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OUAZENE Abdemlohsen. All rights reserved.</p>
+    </footer>
+</body>
+</html>

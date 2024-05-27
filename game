@@ -1,0 +1,394 @@
+{
+    "board": {
+        "1": {
+            "1": {
+                "name": "Rock",
+                "color": "White",
+                "option": "Can"
+            },
+            "2": {
+                "name": "Knight",
+                "color": "White",
+                "option": null
+            },
+            "3": {
+                "name": "Bishop",
+                "color": "White",
+                "option": null
+            },
+            "4": {
+                "name": "Queen",
+                "color": "White",
+                "option": null
+            },
+            "5": {
+                "name": "King",
+                "color": "White",
+                "option": "Can"
+            },
+            "6": {
+                "name": "Bishop",
+                "color": "White",
+                "option": null
+            },
+            "7": {
+                "name": "Knight",
+                "color": "White",
+                "option": null
+            },
+            "8": {
+                "name": "Rock",
+                "color": "White",
+                "option": "Can"
+            }
+        },
+        "2": {
+            "1": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "2": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "3": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "4": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "5": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "6": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "7": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            },
+            "8": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Wait"
+            }
+        },
+        "3": {
+            "1": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "2": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "3": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "4": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "5": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "6": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "7": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "8": {
+                "name": null,
+                "color": null,
+                "option": null
+            }
+        },
+        "4": {
+            "1": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "2": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "3": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "4": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "5": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "6": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "7": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "8": {
+                "name": null,
+                "color": null,
+                "option": null
+            }
+        },
+        "5": {
+            "1": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "2": {
+                "name": "Pawn",
+                "color": "White",
+                "option": "Can"
+            },
+            "3": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "4": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "5": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "6": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "7": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "8": {
+                "name": null,
+                "color": null,
+                "option": null
+            }
+        },
+        "6": {
+            "1": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "2": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "3": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "4": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "5": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "6": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "7": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "8": {
+                "name": null,
+                "color": null,
+                "option": null
+            }
+        },
+        "7": {
+            "1": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "2": {
+                "name": null,
+                "color": null,
+                "option": null
+            },
+            "3": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "4": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "5": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "6": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "7": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            },
+            "8": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            }
+        },
+        "8": {
+            "1": {
+                "name": "Rock",
+                "color": "Black",
+                "option": "Can"
+            },
+            "2": {
+                "name": "Knight",
+                "color": "Black",
+                "option": null
+            },
+            "3": {
+                "name": "Bishop",
+                "color": "Black",
+                "option": null
+            },
+            "4": {
+                "name": "Queen",
+                "color": "Black",
+                "option": null
+            },
+            "5": {
+                "name": "King",
+                "color": "Black",
+                "option": "Can"
+            },
+            "6": {
+                "name": "Bishop",
+                "color": "Black",
+                "option": null
+            },
+            "7": {
+                "name": "Knight",
+                "color": "Black",
+                "option": null
+            },
+            "8": {
+                "name": "Rock",
+                "color": "Black",
+                "option": "Can"
+            }
+        }
+    },
+    "kill": {
+        "White": {},
+        "Black": {
+            "2": {
+                "name": "Pawn",
+                "color": "Black",
+                "option": "Wait"
+            }
+        }
+    },
+    "history": [
+        [
+            "normal",
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            "Wait"
+        ],
+        [
+            "normal",
+            [
+                7,
+                2
+            ],
+            [
+                5,
+                2
+            ],
+            "Wait",
+            "Wait",
+            [
+                4,
+                1
+            ]
+        ],
+        [
+            "kill",
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                2
+            ],
+            "Can"
+        ]
+    ],
+    "turn": "Black"
+}
